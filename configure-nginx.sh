@@ -3,7 +3,7 @@
 # Update apt cache.
 sudo apt-get update
 
-#We need to add repo before installing nginx-core. Otherwise we get an error
+# We need to add the repo before installing nginx-core. Otherwise, we will get an error.
 sudo add-apt-repository main
 sudo add-apt-repository universe
 sudo add-apt-repository restricted
